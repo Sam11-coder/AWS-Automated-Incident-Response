@@ -10,8 +10,8 @@ Normally, if a hacker or a bot tries to break into a system, a security team get
 ## How It Works (The Blueprint)
 
 ![Architecture Diagram](./diagram.svg) 
-*(Note: Upload your diagram image to your repository so it shows up here!)*
 
+---
 This system is built using four main steps:
 
 ### 1. The Bait (The Trap)
