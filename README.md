@@ -26,12 +26,3 @@ As soon as the Watchdog spots an attacker, it triggers an instant alarm. This al
 ### 4. The Shield (The Block)
 Once the script has the attacker's IP address, it immediately updates our network's main firewall. It creates a custom rule that permanently blocks that specific attacker from ever talking to our network again.
 
----
-
-## How to Test It (Live Demo)
-To prove this system actually works, we do a live test:
-
-1. **Check the Trap:** We make sure our bait server is online and reachable.
-2. **Play the Hacker:** From our own home computer, we run a loud "network scan" against the bait server, pretending to be a hacker looking for weaknesses.
-3. **Watch the Automation:** We open our cloud dashboard and watch the system work in real-time. We see the alarm go off, the code run, and the firewall update automatically.
-4. **The Proof:** We try to run the "network scan" from our home computer one more time. It completely fails and freezes, proving that the cloud network has successfully locked us out!
